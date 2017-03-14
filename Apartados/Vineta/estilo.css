@@ -1,0 +1,24 @@
+.vineta
+{
+	position: relative;
+	margin-top: 30px;
+}
+body
+{
+	overflow: visible;
+}
+.vineta
+{
+	-webkit-animation-name: transition_vineta;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: 1;
+    animation-name: transition_vineta;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+@keyframes transition_vineta
+{
+	0% {margin-left: -200%}
+}

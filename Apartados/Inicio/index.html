@@ -1,0 +1,76 @@
+<html lang="es">
+<head>
+<!--&nbsp; para espacios en blanco-->
+    <title>Inicio</title>
+    <link rel="shortcut icon" href="../../imgs/favicon.png">
+    <link rel="stylesheet" type="text/css" href="../global/barra.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js" integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../global/barra.js"></script>
+    <script type="text/javascript" src="motor.js"></script>
+    <meta charset="utf-8">
+</head>
+<body>
+<!-- EMPIZA LA BARRA DE NAVEGACIÓN-->
+<!--caja que engloba la todo lo de la barra de navegación-->
+<div id="nav_barra">
+	<!--incluimos una barra de navegación-->
+	<ul id="nav_lista">
+		<!--incluimos los diferentes apartados dentro de la barra de navegación-->
+		<li class="nav_el">
+			<!-- incluimos los enlaces-->
+			<a class="actual nav_enlace" href="../inicio/index.html">
+			<!-- incluimos los textos-->
+				<span class="nav_span transition_top">
+					Inicio
+				</span>
+			</a>
+		</li>
+		<li class="nav_el">
+			<!-- incluimos los enlaces-->
+			<a class="nav_enlace" href="../creadores/index.html">
+			<!-- incluimos los textos-->
+				<span class="nav_span transition_top">
+					Creadores
+				</span>
+			</a>
+		</li>
+		<li class="sublista nav_el" id="borde">
+			<a class="random accion nav_enlace" href="#">
+				<span class="nav_span transition_top">
+					Textos
+				</span>
+			</a>
+			<!--incluimos los diferentes subapartados dentro de la barra de navegación-->
+			<div class="mostrar">
+				<a class="nav_enlace"  href="../noticia/index.html">
+					<span class="nav_span transition_left t1">
+						Noticia
+					</span>
+				</a>
+				<a class="nav_enlace"  href="../entrevista/index.html">
+					<span class="nav_span transition_left t2">
+						Entrevista
+					</span>
+				</a>
+				<a class="nav_enlace"  href="../opinion/index.html">
+					<span class="nav_span transition_left t3">
+						Art. Opinión
+					</span>
+				</a>
+				<a class="nav_enlace"  href="../vineta/index.html">
+					<span class="nav_span transition_left t4">
+						Viñeta
+					</span>
+				</a>
+			</div>
+		</li>
+	</ul>
+</div>
+<img src="../../imgs/lletrero.png">
+</body>
+</html>

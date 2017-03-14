@@ -1,0 +1,29 @@
+.titulo, .subtitulo
+{
+	font-family: 'Righteous', cursive;
+	text-align: center;
+}
+.titulo
+{
+	font-size: 45px;
+}
+.subtitulo
+{
+	font-size: 25px;
+	margin-top: -20px;
+}
+.contenedor
+{
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif;
+}
+.contenedor p
+{
+	text-indent: 1cm;
+}
+body
+{
+	overflow:visible;
+}

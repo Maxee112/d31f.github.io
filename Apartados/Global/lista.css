@@ -1,0 +1,17 @@
+.elegido
+{
+	-webkit-animation-name: degradado;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: 1;
+    animation-name: degradado;
+    animation-duration: 2.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    background-color: #DC143C;
+}
+@keyframes degradado
+{
+	0% {background-color: #CCCCCC; color:#000000;}
+	50% {background-color: #CCCCCC; color:#000000;}
+}

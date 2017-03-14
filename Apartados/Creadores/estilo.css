@@ -1,0 +1,36 @@
+.creadores
+{
+	margin-top: 15%;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+}
+.david
+{
+	-webkit-animation-name: transition_lefta;
+	-webkit-animation-duration: 1.6s;
+	-webkit-animation-delay: 0s;
+	animation-name: transition_lefta;
+	animation-duration: 1.6s;
+	animation-delay: 0s;
+}
+.joel
+{
+	-webkit-animation-name: transition_leftb;
+	-webkit-animation-duration: 1.6s;
+	-webkit-animation-delay: 0s;
+	animation-name: transition_leftb;
+	animation-duration: 1.6s;
+	animation-delay: 0s;
+}
+@keyframes transition_lefta
+{
+	0% {margin-left: -250%}
+	100% {margin-left: 0}
+}
+@keyframes transition_leftb
+{
+	0% {margin-left: -250%}
+	20% {margin-left: -250%}
+	100% {margin-left: 0}
+}
